@@ -3,4 +3,5 @@
 </svg>  
 
 <svg width="100px" height="100px" version="1.1" onload="alert('load'); setAttribute('fill', 'fuchsia')">
+    
 </svg>
