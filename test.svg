@@ -2,6 +2,5 @@
   <circle id="circle2" cx="150" cy="50" r="20" fill="green" onmouseover="evt.target.setAttribute('fill', 'blue');" onmouseout="evt.target.setAttribute('fill','green');"/>
 </svg>  
 
-<svg width="100px" height="100px" version="1.1" onload="alert('load'); setAttribute('fill', 'fuchsia')"
-     xmlns="http://www.w3.org/2000/svg"
->
+<svg width="100px" height="100px" version="1.1" onload="alert('load'); setAttribute('fill', 'fuchsia')">
+</svg>
