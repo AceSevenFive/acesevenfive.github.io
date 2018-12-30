@@ -3,7 +3,7 @@
      ...
   <script type="text/javascript">
         window.addEventListener('load',function(){
-        alert('Hi')
+          alert('Hi');
         })
     </script>   
 
