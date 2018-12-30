@@ -1,0 +1,10 @@
+<svg>
+  <script>
+    <![CDATA[
+      window.addEventListener("load", () => {
+        alert("Test");
+      }, false)
+    ]]>
+  </script>
+  <rect x="0" y="0" width="10" height="10" fill="blue" />
+</svg>
