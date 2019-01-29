@@ -3,17 +3,7 @@
       <svg id="test">
          <script type="text/javascript">
             <![CDATA[
-               var colors = ["red", "green", "purple"];
-               function changeColor() {
-                  if(colors.indexOf(document.getElementById("rect").getAttributeNS(null, "fill")) == 2) {
-                     document.getElementById("rect").setAttributeNS(null, "fill", colors[0]);
-                     document.getElementById("rect").setAttributeNS(null, "stroke", colors[0]);
-                  }
-                  else {
-                     document.getElementById("rect").setAttributeNS(null, "fill", colors[colors.indexOf(document.getElementById("rect").getAttributeNS(null, "fill")) + 1]);
-                     document.getElementById("rect").setAttributeNS(null, "stroke", colors[colors.indexOf(document.getElementById("rect").getAttributeNS(null, "stroke")) + 1]);
-                  }
-               }
+               console.log(test);
             ]]>
          </script>
          <rect id="rect" x="100" y="100" width="200" height="200" 
