@@ -7,15 +7,17 @@
                function changeColor() {
                   if(colors.indexOf(document.getElementById("rect").getAttributeNS(null, "fill")) == 2) {
                      document.getElementById("rect").setAttributeNS(null, "fill", colors[0]);
+                     document.getElementById("rect").setAttributeNS(null, "stroke", colors[0]);
                   }
                   else {
                      document.getElementById("rect").setAttributeNS(null, "fill", colors[colors.indexOf(document.getElementById("rect").getAttributeNS(null, "fill")) + 1]);
+                     document.getElementById("rect").setAttributeNS(null, "stroke", colors[colors.indexOf(document.getElementById("rect").getAttributeNS(null, "stroke")) + 1]);
                   }
                }
             ]]>
          </script>
          <rect id="rect" x="100" y="100" width="200" height="200" 
-            stroke="green" stroke-width="3" fill="red" 
+            stroke="red" stroke-width="3" fill="red" 
             onClick="changeColor()"/> 
       </svg>
    </body>
